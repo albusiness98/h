@@ -7,7 +7,7 @@
 <body>
 <?php
 
-  if(isset($_POST["btn"])&& $_POST["btn"] == 'Calcular') {
+  if(isset($_POST['btn'])&& $_POST['btn'] == 'Calcular') {
   
     $cateto1 = $_POST['cateto 1'];
     $cateto2 = $_POST['cateto 2'];    
@@ -19,10 +19,10 @@
     
       $hipotenusa = sqrt(pow($cateto1, 2) + pow($cateto2, 2));
       
-    echo "<br>Cateto 1: ". $cateto1;
-    echo "<br>Cateto 2: ". $cateto2;   
+    echo "<br>Cateto 1: " .$cateto1;
+    echo "<br>Cateto 2: " .$cateto2;   
     echo "<br/><br/>";
-    echo "<br>Hipotenusa: ". $hipotenusa;
+    echo "<br>Hipotenusa: " .$hipotenusa;
     echo "<br/><br/>";
     echo "<a href='datos.html'>Regresar</a>";
    }
