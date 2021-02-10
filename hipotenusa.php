@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
+<html>
 <head><title>CALCULO DE LA HIPOTENUSA DEL TRIANGULO RECTANGULO</title><head>
 <body>
 <?php
