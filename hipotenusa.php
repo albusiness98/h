@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head><title>CALCULO DE LA HIPOTENUSA DEL TRIANGULO RECTANGULO</title></head>
 <body>
