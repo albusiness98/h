@@ -4,7 +4,7 @@
 <body>
 <?php
 
-  if(isset($_POST["button"])&& $_POST["button"] == 'Calcular'){
+  if(isset($_POST["button"])&& $_POST["btn"] == 'Calcular') {
   
     $cateto1 = $_POST['cateto 1'];
     $cateto2 = $_POST['cateto 2'];    
